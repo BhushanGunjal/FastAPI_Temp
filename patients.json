@@ -1,67 +1,72 @@
-[
-  {
-    "patient_id": "P001",
-    "name": "John Doe",
-    "age": 45,
-    "gender": "Male",
-    "vitals": {
-      "heart_rate": 78,
-      "blood_pressure": "120/80",
-      "temperature": 98.6
+{
+    "P001": {
+        "name": "Ananya Sharma",
+        "city": "Guwahati",
+        "age": 28,
+        "gender": "female",
+        "height": 1.65,
+        "weight": 90.0,
+        "bmi": 33.06,
+        "verdict": "Obese"
     },
-    "diagnosis": "Hypertension",
-    "medications": ["Amlodipine", "Lisinopril"]
-  },
-  {
-    "patient_id": "P002",
-    "name": "Jane Smith",
-    "age": 30,
-    "gender": "Female",
-    "vitals": {
-      "heart_rate": 85,
-      "blood_pressure": "110/70",
-      "temperature": 99.1
+    "P002": {
+        "name": "Ravi Mehta",
+        "city": "Mumbai",
+        "age": 35,
+        "gender": "male",
+        "height": 1.75,
+        "weight": 85,
+        "bmi": 27.76,
+        "verdict": "Overweight"
     },
-    "diagnosis": "Type 2 Diabetes",
-    "medications": ["Metformin"]
-  },
-  {
-    "patient_id": "P003",
-    "name": "Rahul Mehta",
-    "age": 60,
-    "gender": "Male",
-    "vitals": {
-      "heart_rate": 72,
-      "blood_pressure": "140/90",
-      "temperature": 98.2
+    "P003": {
+        "name": "Sneha Kulkarni",
+        "city": "Pune",
+        "age": 22,
+        "gender": "female",
+        "height": 1.6,
+        "weight": 45,
+        "bmi": 17.58,
+        "verdict": "Underweight"
     },
-    "diagnosis": "Coronary Artery Disease",
-    "medications": ["Atorvastatin", "Aspirin"]
-  },
-  {
-    "patient_id": "P004",
-    "name": "Anjali Sharma",
-    "age": 27,
-    "gender": "Female",
-    "vitals": {
-      "heart_rate": 92,
-      "blood_pressure": "115/75",
-      "temperature": 100.4
+    "P004": {
+        "name": "Arjun Verma",
+        "city": "Bangalore",
+        "age": 40,
+        "gender": "male",
+        "height": 1.8,
+        "weight": 95,
+        "bmi": 29.32,
+        "verdict": "Overweight"
     },
-    "diagnosis": "Viral Fever",
-    "medications": ["Paracetamol"]
-  },
-  {
-    "patient_id": "P005",
-    "name": "David Lee",
-    "age": 52,
-    "gender": "Male",
-    "vitals": {
-      "heart_rate": 68,
-      "blood_pressure": "130/85",
-      "temperature": 97.9
+    "P005": {
+        "name": "Neha Sinha",
+        "city": "Kolkata",
+        "age": 30,
+        "gender": "female",
+        "height": 1.55,
+        "weight": 75,
+        "bmi": 31.22,
+        "verdict": "Obese"
     },
-    "diagnosis": "Asthma",
-    "medications": ["Salbutamol", "Fluticasone"]
-  }
-]
+    "P006": {
+        "name": "Rahul Gupta",
+        "city": "Hyderabad",
+        "age": 19,
+        "gender": "male",
+        "height": 1.74,
+        "weight": 55.0,
+        "bmi": 18.17,
+        "verdict": "Underweight"
+    },
+    "P008": {
+        "name": "John Doe2",
+        "city": "New York2",
+        "age": 30,
+        "gender": "string",
+        "height": 1.75,
+        "weight": 70.0,
+        "bmi": 22.86,
+        "verify": "Normal weight"
+    }
+}
