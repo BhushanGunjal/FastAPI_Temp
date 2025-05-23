@@ -12,7 +12,7 @@ class Patient(BaseModel):
     name    : Annotated[str, Field(..., title='Patient Name', description='Name of the patient', example='John Doe')]
     city    : Annotated[str, Field(..., title='Patient City', description='City of the patient', example='New York')]
     age     : Annotated[int, Field(..., gt=0, lt=120, title='Patient Age', description='Age of the patient', example=30)]
-    gender  : Annotated[str, Literal['male','female','other'], Field(..., title='Gender', description='Gender of the patient')]
+    gender  : Annotated[str, Literal['male','female','other'], Field(..., title='Gender', description='Gender of the patient', example='female')]
     height  : Annotated[float, Field(..., gt=0, title='Height', description='Height of the patient in cm', example=1.75)]
     weight  : Annotated[float, Field(..., gt=0, title='Weight', description='Weight of the patient in kg', example=70)]
 
