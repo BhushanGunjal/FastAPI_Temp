@@ -59,14 +59,24 @@
         "bmi": 18.17,
         "verdict": "Underweight"
     },
-    "P008": {
-        "name": "John Doe2",
-        "city": "New York2",
-        "age": 30,
-        "gender": "string",
-        "height": 1.75,
-        "weight": 70.0,
-        "bmi": 22.86,
+    "P009": {
+        "name": "Bhushan",
+        "city": "Navi Mumbai",
+        "age": 24,
+        "gender": "male",
+        "height": 1.67,
+        "weight": 55.0,
+        "bmi": 19.72,
+        "verify": "Normal weight"
+    },
+    "P010": {
+        "name": "Manasi",
+        "city": "Navi Mumbai",
+        "age": 24,
+        "gender": "female",
+        "height": 1.67,
+        "weight": 55.0,
+        "bmi": 19.72,
         "verify": "Normal weight"
     }
 }
